@@ -1,0 +1,26 @@
+#lolipop common ssh info
+Host  lolipop*
+  HostName ssh.lolipop.jp
+  Port 2222
+  HostKeyAlgorithms +ssh-rsa
+  PubkeyAcceptedKeyTypes +ssh-rsa
+#lolipop blogdeoshiete.main.jp
+Host  lolipopb
+  User main.jp-blogdeoshiete
+  IdentityFile /home/matsubara/key/lolipop_blogdeoshiete/id_lolipop
+#lolipop onlinestore.main.jp
+Host  lolipopm
+  User main.jp-onlinestore
+  IdentityFile /home/matsubara/key/lolipop_mementoful/id_rsa
+#conohawing kamonohashiblog
+Host  conohawingk
+  HostName www256.conoha.ne.jp
+  Port 8022
+  User  c7657278
+  IdentityFile /home/matsubara/key/conohawing/kamonohashiblog-key.pem
+#conohawing kamonohashiblog
+Host  conohawings
+  HostName www6.conoha.ne.jp
+  Port 8022
+  User  c9432556
+  IdentityFile /home/matsubara/key/conohawing/sinceretechnology.pem
