@@ -7,20 +7,27 @@ Host  lolipop*
 #lolipop blogdeoshiete.main.jp
 Host  lolipopb
   User main.jp-blogdeoshiete
-  IdentityFile /home/matsubara/key/lolipop_blogdeoshiete/id_lolipop
+  IdentityFile /home/sazae_matsubara/key/lolipop_blogdeoshiete/id_lolipop
 #lolipop onlinestore.main.jp
 Host  lolipopm
   User main.jp-onlinestore
-  IdentityFile /home/matsubara/key/lolipop_mementoful/id_rsa
+  IdentityFile /home/sazae_matsubara/key/lolipop_mementoful/id_rsa
 #conohawing kamonohashiblog
 Host  conohawingk
   HostName www256.conoha.ne.jp
   Port 8022
   User  c7657278
-  IdentityFile /home/matsubara/key/conohawing/kamonohashiblog-key.pem
+  IdentityFile /home/sazae_matsubara/key/conohawing/kamonohashiblog-key.pem
 #conohawing kamonohashiblog
 Host  conohawings
   HostName www6.conoha.ne.jp
   Port 8022
   User  c9432556
-  IdentityFile /home/matsubara/key/conohawing/sinceretechnology.pem
+  IdentityFile /home/sazae_matsubara/key/conohawing/sinceretechnology.pem
+#aws for JTB support *Need to connect WireGuard
+Host  jtbaws
+  HostName 18.142.75.67
+  Port 22
+  User ec2-user
+  IdentityFile  /home/sazae_matsubara/key/SAZAE/id_rsa
+
