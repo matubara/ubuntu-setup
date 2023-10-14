@@ -13,6 +13,10 @@ sudo apt-get upgrade
 echo "ubuntu upgrade has completed"
 read -p "Press [Enter] key to move on to the next."
 
+#install git
+sudo apt install git
+echo "git install has completed"
+
 #set name and email to git
 git config --global user.name "sinceretechnology"
 git config --global user.email "admin@sinceretechnology.com.au"
