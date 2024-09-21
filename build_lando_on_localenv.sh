@@ -70,6 +70,9 @@ sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
 echo "Docker-machine installed"
 read -p "Press [Enter] key to move on to the next."
 
+# Add privilage for docker
+sudo chmod 666 /var/run/docker.sock
+
 #install LANDO
 wget https://files.lando.dev/installer/lando-x64-stable.deb
 sudo dpkg -i lando-x64-stable.deb
