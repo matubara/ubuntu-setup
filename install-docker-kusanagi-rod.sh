@@ -14,7 +14,7 @@ echo "ubuntu upgrade has completed"
 read -p "Press [Enter] key to move on to the next."
 
 #install git
-sudo apt install git
+sudo apt install git -y
 echo "git install has completed"
 
 #set name and email to git
