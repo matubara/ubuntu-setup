@@ -9,7 +9,7 @@ sudo apt-get update
 echo "ubuntu update has completed"
 read -p "Press [Enter] key to move on to the next."
 
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 echo "ubuntu upgrade has completed"
 read -p "Press [Enter] key to move on to the next."
 
