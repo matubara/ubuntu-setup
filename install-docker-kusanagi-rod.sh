@@ -24,6 +24,10 @@ git config --global user.email "admin@sincerew.biz"
 #install gettext (msgfmt)
 sudo apt-get install gettext
 
+#install vim
+sudo apt install vim -y
+
+
 #install docker
 sudo apt-get remove docker docker-engine docker.io containerd runc
 
