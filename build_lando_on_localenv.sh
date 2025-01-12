@@ -9,12 +9,12 @@ sudo apt-get update
 echo "ubuntu update has completed"
 read -p "Press [Enter] key to move on to the next."
 
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 echo "ubuntu upgrade has completed"
 read -p "Press [Enter] key to move on to the next."
 
 #install git
-sudo apt install git
+sudo apt install git -y
 echo "git install has completed"
 
 #set name and email to git
@@ -23,6 +23,10 @@ git config --global user.email "admin@sincerew.biz"
 
 #install gettext (msgfmt)
 sudo apt-get install gettext
+
+#install vim
+sudo apt install vim -y
+
 
 #install docker
 sudo apt-get remove docker docker-engine docker.io containerd runc
